@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Let's Go To Bali</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/boostrap-theme.css" rel="stylesheet">
+  <!-- Anything on my personal css stylesheet that is going to refer to Bootstrap needs to be on the line below Bootstrap -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="gallery_background">
+  <noscript>
+    <p>I see you don't have Javascript. Here is how to get around:
+      <br>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="games.html">Games</a>
+      <a href="calendar.html">Calendarl</a>
+    </p>
+  </noscript>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Bali</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+        <li><a href="games.html">Games</a></a>
+        </li>
+        <li><a href="calendar.html">Calendar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div id="cooljumbo" class="jumbotron">
+    <div class="container">
+      <h1>Let's go to Bali!</h1>
+      <p>Look At All The Pretty Pictures.</p>
+      <!--p><a class="btn btn-primary btn-lg my-btn" href="#" role="button"><i class="glyphicon glyphicon-ok-circle"> Proceed &raquo;</i></a></p-->
+    </div>
+  </div>
+
+  <!--Beginning of the Photo Gallery-->
+  <div class="container">
+    <!--h1>GALLERY!</h1-->
+    <div class="row">
+      <div class="col-md-4 thumbnail">
+        <a href="#img1" data-toggle="modal"><img src="images/indonesia_flag.jpg" alt="Red & White Indonesian Flag" class="img-responsive" /></a>
+        <div class="caption text-center">Indonesian Flag</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img2" data-toggle="modal"><img src="images/bali_elephant.jpg" alt="Stone Elephant Carving at a Temple" class="img-responsive" /></a>
+        <div class="caption text-center">Stone Elephant Carving at a Temple</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img3" data-toggle="modal"><img src="images/bali_beach.jpg" alt="Beautiful Bali Beach" class="img-responsive" /></a>
+        <div class="caption text-center">Balinese Beach</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 thumbnail">
+        <a href="#img4" data-toggle="modal"><img src="images/bali_frangipani.jpg" alt="Coral & Cream colored Frangipani Flower" class="img-responsive" /></a>
+        <div class="caption text-center">Frangipani Flower</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img5" data-toggle="modal"><img src="images/bali_nusa_dua.jpg" alt="Edge of Water at Nusa Dua Bali Indonesia" class="img-responsive" /></a>
+        <div class="caption text-center">Edge of Water at Nusa Dua, Bali, Indonesia</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img6" data-toggle="modal"><img src="images/bali_ocean.jpg" alt="Blue Ocean Surrounding Bali" class="img-responsive" /></a>
+        <div class="caption text-center">Blue Ocean Surrounding Bali</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 thumbnail">
+        <a href="#img7" data-toggle="modal"><img src="images/bali_pantai.jpg" alt="Pantai Kecil Beach Bali Indonesia" class="img-responsive" /></a>
+        <div class="caption text-center">Pantai Kecil Beach Bali Indonesia</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img8" data-toggle="modal"><img src="images/bali_rice_field.jpg" alt="Balinese Rice Field on a the Slope of a Hill" class="img-responsive" /></a>
+        <div class="caption text-center">Balinese Rice Field on a the Slope of a Hill</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img9" data-toggle="modal"><img src="images/bali_stone_detail.jpg" alt="Detail of Temple Carving" class="img-responsive" /></a>
+        <div class="caption text-center">Detail of Temple Carving</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 thumbnail">
+        <a href="#img10" data-toggle="modal"><img src="images/bali_temple.jpg" alt="Balinese Temple" class="img-responsive" /></a>
+        <div class="caption text-center">Balinese Temple</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img11" data-toggle="modal"><img src="images/bali_tanah_lot.jpg" alt="Tanah Lot Temple, Bali, Indonesia" class="img-responsive" /></a>
+        <div class="caption text-center">Tanah Lot Temple, Bali, Indonesia</div>
+      </div>
+      <div class="col-md-4 thumbnail">
+        <a href="#img12" data-toggle="modal"><img src="images/bali_flag.png" alt="Flag of Bali" class="img-responsive" /></a>
+        <div class="caption text-center">Flag of Bali</div>
+      </div>
+    </div>
+
+    <!--div class="modal fade" id="img1" role="dialog"
+       <div id="img1 responsive" class="modal fade" tabindex="-1" data-width="760" style="display: none;">-->
+    <div class="modal fade" id="img1" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/indonesia_flag.jpg" alt="Red & White Indonesian Flag" width="100%" height="100%" />
+          <div class="caption text-center">Indonesian Flag</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="img2" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_elephant.jpg" alt="Stone Elephant Carving at a Temple" width="100%" height="100%" />
+          <div class="caption text-center">Stone Elephant Carving at a Temple</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="img3" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_beach.jpg" alt="Beautiful Bali Beach" width="100%" height="100%" />
+          <div class="caption text-center">Beautiful Bali Beach</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img4" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_frangipani.jpg" alt="Coral & Cream colored Frangipani Flower" width="100%" height="100%" />
+          <div class="caption text-center">Frangipani Flower</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img5" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_nusa_dua.jpg" alt="Edge of Water in Nusa Dua Bali Indonesia" width="100%" height="100%" />
+          <div class="caption text-center">Edge of Water at Nusa Dua, Bali, Indonesia</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img6" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_ocean.jpg" alt="Blue Ocean Surrounding Bali" width="100%" height="100%" />
+          <div class="caption text-center">Blue Ocean Surrounding Bali</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img7" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_pantai.jpg" alt="Pantai Kecil Beach Bali Indonesia" width="100%" height="100%" />
+          <div class="caption text-center">Pantai Kecil Beach Bali Indonesia</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img8" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_rice_field.jpg" alt="Balinese Rice Field on a the Slope of a Hill" width="100%" height="100%" />
+          <div class="caption text-center">Balinese Rice Field on a the Slope of a Hill</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img9" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_stone_detail.jpg" alt="Detail of Temple Carving" width="100%" height="100%" />
+          <div class="caption text-center">Detail of Temple Carving</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img10" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_temple.jpg" alt="Balinese Temple" width="100%" height="100%" />
+          <div class="caption text-center">Balinese Temple</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img11" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_tanah_lot.jpg" alt="Hermit crab shell" width="100%" height="100%" />
+          <div class="caption text-center">Tanah Lot Temple, Bali, Indonesia</div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="img12" role="dialog">
+      <div class="modal-content modal-bali">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button><img class="img-responsive center-block" src="images/bali_flag.png" alt="Flag of Bali" width="100%" height="100%" />
+          <div class="caption text-center">Flag of Bali</div>
+        </div>
+      </div>
+    </div>
+
+      <!--Tabbed Section
+    <h2>Benjamin Franklin Quotations</h2>
+    <div class="col-md-10">
+      <div>
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">Tab 1</a></li>
+          <li><a href="#tab2" data-toggle="tab">Tab 2</a></li>
+          <li><a href="#tab3" data-toggle="tab">Tab 3</a></li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1">Tell me and I forget, teach me and I may remember, involve me and I learn.</div>
+        <div class="tab-pane" id="tab2">By failing to prepare, you are preparing to fail.</div>
+        <div class="tab-pane" id="tab3">They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.</div>
+      </div>
+    </div>
+  </div>-->
+
+      <!-- Example row of columns
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+          <div class="col-md-6">
+          <label for="column-1"><h2>COLUMN 1</h2></label>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <p><img class="img-responsive center-block" src="Images/shell.png"/></p>
+          </div>
+          <div class="col-md-6">
+       <label for="column-2"><h2>COLUMN 2</h2></label>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                     <p><img class="img-responsive center-block" src="Images/blueshell.jpg"/></p>
+       </div>
+        </div>
+        </div>
+          <div class="col-md-3">
+          <label for="column-3"><h2>COLUMN 3</h2></label>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-3">
+       <label for="column-4"><h2>COLUMN 4<sup><label class="label label-success">NEW</label></sup></h2></label>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+       <div class="row">
+       <div class="col-md-6">
+       <label for="column-5"><h2>COLUMN 5</h2></label>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        </div>
+        </div>
+      <hr>-->
+
+      <!--Gliphicon Button-->
+      <div class="button text-center"><a class="btn btn-primary btn-lg my-btn" href="https://en.wikipedia.org/wiki/Bali" role="button"><i class="glyphicon glyphicon-education"> To Learn More &raquo;</i></a></div>
+      <!--nav>
+        <ul class="pager">
+          <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+          <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+      </nav-->
+
+      <!--Fixed Footer-->
+      <!--nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" placeholder="Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" placeholder="Password" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-success my-btn">Sign in</button>
+            </form>
+          </div>
+          <!--/.navbar-collapse -->
+        <!--/div>
+      </nav-->
+      <footer>
+        <p>&copy;  Let's Go Bali! 2016</p>
+      </footer>
+
+      <!-- /container -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.js"></script>
+      <script src="js/bali.js"></script>
+</body>
+
+</html>

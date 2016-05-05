@@ -1,0 +1,177 @@
+#cooljumbo {
+ background-color: #F5E3E0;
+ background-image: url("../images/bali_painting_crop.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ color: #D45A4F;
+ font-family: 'Berkshire Swash', cursive;
+ text-shadow: 2px 2px #194757;
+}
+
+.my-btn {
+ background: #535652;
+ border-color: #26221f;
+ color: #f4f3f0;
+}
+
+.my-btn:hover {
+ border-color: #C0C0C0;
+ background-color: #828982;
+}
+
+.img-responsive {
+ display: block;
+ /*poition: absolute;*/
+}
+
+.thumbnail {
+ max-width: 100%;
+ max-height: 100%;
+ Padding: 10pt;
+ display: inline-block;
+}
+
+/*.modal-content {
+ padding-top: 10px;
+ padding-right: 15px;
+ position: relative;
+}*/
+
+.modal-bali {
+  max-height: calc(100% - 100px);
+  position: fixed;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#GoogleIt {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #f5f5dc;
+}
+
+.calendar0 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #e6e6e6;
+}
+
+.calendar1 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+background-color: #809000;
+}
+
+.calendar2 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #f0455b;
+}
+
+.calendar3 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #4e4dfd;
+}
+
+.calendar4 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #00cdcd;
+}
+
+.calendar5 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-top: dotted 1px #000000;
+ border-bottom: dotted 1px #000000;
+ border-left: dotted 1px #000000;
+ border-right: dotted 1px #000000;
+ background-color: #addfff;
+}
+
+.gallery_background {
+ background-color: #EBEAE5;
+}
+
+/*memory game styling*/
+#memory_board{
+	background:#ff6060;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+#memory_board > div{
+	background-image: url("../images/shells.jpg");
+	border:#000 1px solid;
+	width:105px;
+	height:100px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+/*games page styling*/
+.red-text{
+ color:#D45A4F;
+}
+
+#display{
+ background-image: url('../images/sand.jpg');
+}
+
+footer {
+    background:transparent;
+    opacity:0.4;
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+
+
+ 
+}
